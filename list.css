@@ -1,0 +1,58 @@
+h1,h2,h3,h4,p,label,a,span{
+  font-family: montserrat;
+}
+a {
+  text-decoration: none;
+}
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #bdbdbd;
+}
+
+/*---------------------------------------------------Fonts---------------------------------------------------*/
+@font-face {
+  font-family: montserrat;
+  src: url(./font/Montserrat-Regular.ttf);
+}
+
+.list{
+    max-width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto;
+}
+.card {
+    width: 400px;
+    height: auto;
+    margin: 10px;
+    box-shadow: 1px 1px 8px #bdbdbd;
+    border-radius: 5px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0px 0px;
+}
+.card-bottom {
+    padding: 20px 25px 20px 25px;
+}
+.title {
+    font-size: 20px;
+    font-weight: 800;
+}
+.desc {
+    font-size: 14px;
+    color: #686868;
+}
+.label {
+    font-size: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .list{grid-template-columns: auto auto auto;}
+}
+/*-------------------------------------------------Responsive Tablets----------------------------------------*/
+@media only screen and (min-width: 600px) {
+}

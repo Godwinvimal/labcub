@@ -1,0 +1,26 @@
+h1,h2,h3,h4,p,label,a,span{
+  font-family: montserrat;
+}
+a {
+  text-decoration: none;
+}
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #bdbdbd;
+}
+
+/*-----------------------------------------------------Fonts-------------------------------------------------*/
+@font-face {
+  font-family: montserrat;
+  src: url(./font/Montserrat-Regular.ttf);
+}
+
+/*-------------------------------------------------Responsive Desktop----------------------------------------*/
+@media only screen and (min-width: 768px) {
+    .list{grid-template-columns: auto auto auto;}
+}
+/*-------------------------------------------------Responsive Tablets----------------------------------------*/
+@media only screen and (min-width: 600px) {
+}
